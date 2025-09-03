@@ -1,0 +1,77 @@
+# =========================
+# Archivos de sistema
+# =========================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# =========================
+# Compilación / build
+# =========================
+/build/
+/dist/
+/out/
+/bin/
+/obj/
+/*.elf
+/*.hex
+/*.map
+
+# =========================
+# IDEs
+# =========================
+# VSCode
+.vscode/
+/*.code-workspace
+
+# CLion / JetBrains
+.idea/
+
+# Eclipse
+.settings/
+.cproject
+.project
+
+# =========================
+# Firmware / Toolchains
+# =========================
+/firmware/drivers/*.o
+/firmware/drivers/*.d
+/firmware/*/*.o
+/firmware/*/*.d
+
+# =========================
+# Node / WebApp
+# =========================
+node_modules/
+/npm-debug.log
+yarn.lock
+package-lock.json
+.next/
+/coverage/
+
+# =========================
+# Python (IA / backend)
+# =========================
+__pycache__/
+/*.pyc
+/*.pyo
+.venv/
+.env
+*.egg-info/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Otros
+# =========================
+/docs/generated/   # Documentación generada automáticamente
+*.pdf              # Reportes generados
+*.zip
+*.tar
